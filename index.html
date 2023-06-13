@@ -44,24 +44,66 @@
         </div>
         <div class="right-section">
             <h1>Create an account</h1>
+            <p>it's quick and easy.</p>
+<div class="signup-controls">
+    <form class="signup-form" action="hello2.html" id="signup-form">
+        <div class="signup-field name">
+            <input name="fname" class="field" type="text" placeholder="first name">
+            <input name="sname" class="field" type="text" placeholder="surname">
 
-            <form action="">
-                <div class="form">
-                <input type="text" placeholder="Email" style="border: radius 5px; ">
-            </div>
+        </div>
+        <div class="signup-field">
+            <input name="emailAddress" class="field" type="text" placeholder="Email address">
+        </div>
+        <div class="signup-field">
+            <input name="password" class="field" type="text" placeholder="New password">
+        </div>
+        <div class="signup-field">
+            <label class="gray">Birthday</label><br><br>
+            <select class="dob" name="day">
+                <option value="">Day</option>
+                <option value="1">01</option>
+                <option value="2">02</option> 
+            </select>
+            <select class="dob" name="month">
+                <option>jan</option>
+                <option>feb</option>
+            </select>
+            <select class="dob" name="year">
+                <option>1999</option>
+                <option>2000</option>
+            </select><br>
             
-                <select name="" id="">
-                    <option value="">Day</option>
-                    <option value="">1</option>
-                    <option value="">2</option>
-                </select>
-            
+        </div>
+        <div class="signup-field" >
+        <label class="gray">gender</label>
+        <br><br>
+        <input name="gender" type="radio">
+        <label>female</label>
+        <input  name="gender" type="radio">
+        <label>male</label>   
+        <input  name="gender" type="radio">
+        <label>custom</label>   
+        </div>
 
-            </form>
+        <div>
+            <button class="sub" type="submit">sign up</button>
+        </div>
+    </form>
+    
+</div>
+           
 
         </div>
 
      </div>
     </div>
+     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+
+    <script src="Script.js">
+
+    </script>
+    
 </body>
 </html>
